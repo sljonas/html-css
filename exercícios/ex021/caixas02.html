@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: rgb(236, 233, 233);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(43, 42, 42);
+        }
+
+        footer{ 
+            background-color: black;
+            color:  white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae nihil cumque fugiat eum nisi impedit doloremque, eaque consequuntur id unde nulla ratione excepturi quisquam asperiores debitis architecto itaque nam?</p>
+            </article>
+                <aside>
+                    <p>artigo escrito por jonas</p>
+                </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por DevJonas</p>
+    </footer>
+</body>
+</html>
