@@ -1,1 +1,5 @@
 @charset "UTFO-8";
+
+body{
+    background: url(../imagens/cev-portrait.jpg);
+}
