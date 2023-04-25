@@ -52,7 +52,7 @@ main{
 
 }
 
-span#burguer{
+i#burguer{
     background-color: rgb(68, 67, 67);
     color: white;
     padding: 10px;
@@ -61,7 +61,7 @@ span#burguer{
     cursor: pointer;
 }
 
-span#burguer:hover{
+i#burguer:hover{
     background-color: white;
     color: black;
 }
