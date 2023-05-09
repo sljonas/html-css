@@ -62,8 +62,9 @@ div#formulario > h1{
     margin-bottom: 10px;
 }
 
-div#formuulario > p{
-    font-size: .8em;
+div#formulario > p{
+    font-size: 1em;
+    padding:  10px 0px;
 }
 
 form > div.campo{
@@ -139,6 +140,7 @@ form> a.botao:hover{
     background-color: #6cd3cf;
 }
 
-form >a.bota > i{
-    font-size: 0.8em;
+form > a.botao > span {
+    font-size: 1em;
+    margin-top: 5px;
 }
